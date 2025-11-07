@@ -1,0 +1,58 @@
+Total titles used for training: 100
+Vocab size: 576 | Training pairs: 901
+Epoch 1, Loss: 5726.9197
+Epoch 2, Loss: 5649.9817
+Epoch 3, Loss: 5515.5898
+Epoch 4, Loss: 5285.8979
+Epoch 5, Loss: 5044.4277
+Epoch 6, Loss: 4790.0098
+Epoch 7, Loss: 4515.0326
+Epoch 8, Loss: 4225.8095
+Epoch 9, Loss: 3940.9636
+Epoch 10, Loss: 3671.4503
+Epoch 11, Loss: 3422.1875
+Epoch 12, Loss: 3197.9917
+Epoch 13, Loss: 3001.7314
+Epoch 14, Loss: 2832.8857
+Epoch 15, Loss: 2688.9237
+Epoch 16, Loss: 2565.9328
+Epoch 17, Loss: 2459.4711
+Epoch 18, Loss: 2365.6467
+Epoch 19, Loss: 2281.5335
+Epoch 20, Loss: 2205.0802
+Epoch 21, Loss: 2134.8394
+Epoch 22, Loss: 2069.8130
+Epoch 23, Loss: 2009.4057
+Epoch 24, Loss: 1953.2964
+Epoch 25, Loss: 1901.2173
+Epoch 26, Loss: 1852.8539
+Epoch 27, Loss: 1807.8428
+Epoch 28, Loss: 1765.7944
+Epoch 29, Loss: 1726.3266
+Epoch 30, Loss: 1689.0967
+Epoch 31, Loss: 1653.8164
+Epoch 32, Loss: 1620.2525
+Epoch 33, Loss: 1588.2190
+Epoch 34, Loss: 1557.5660
+Epoch 35, Loss: 1528.1674
+Epoch 36, Loss: 1499.9108
+Epoch 37, Loss: 1472.6918
+Epoch 38, Loss: 1446.4129
+Epoch 39, Loss: 1420.9844
+Epoch 40, Loss: 1396.3252
+Epoch 41, Loss: 1372.3633
+Epoch 42, Loss: 1349.0354
+Epoch 43, Loss: 1326.2873
+Epoch 44, Loss: 1304.0721
+Epoch 45, Loss: 1282.3502
+Epoch 46, Loss: 1261.0876
+Epoch 47, Loss: 1240.2549
+Epoch 48, Loss: 1219.8264
+Epoch 49, Loss: 1199.7799
+Epoch 50, Loss: 1180.0958
+
+Saving word embeddings to CSV...
+Saved 576 word embeddings to word_embeddings.csv
+Saved Word2Vec model to word2vec_model.pkl
+Embedding dimension: 15
+Vocabulary size: 576

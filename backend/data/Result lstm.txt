@@ -1,0 +1,95 @@
+%runfile 'C:/Users/psivk/Documents/MAXON/Sem 5/ML/Package/lstm.py' --wdir
+Reloaded modules: word2vec
+Loading dataset...
+Class distribution:
+label
+study        600
+non-study    385
+Name: count, dtype: int64
+Total samples: 985
+Loading pre-trained Word2Vec model...
+Loaded Word2Vec model with vocab size: 576
+Embedding dimension: 15
+Creating embeddings matrix from pre-trained Word2Vec...
+Training samples: 788
+Validation samples: 197
+Preparing LSTM training data...
+Training samples: 788
+Validation samples: 197
+
+Sample training data:
+Sample 1: Words: ['1', 'is', '1', '1', '1']..., Label: non-study
+Sample 2: Words: ['1', 'back', 'training', 'with', '1']..., Label: study
+Sample 3: Words: ['1', '1', '1', '1', 'lab']..., Label: study
+
+Training LSTM model...
+Epoch 0, Train Loss: 0.6731, Val Loss: 0.8943, Val Acc: 0.47
+Epoch 1, Train Loss: 0.6633, Val Loss: 0.8123, Val Acc: 0.49
+Epoch 2, Train Loss: 0.6624, Val Loss: 0.6763, Val Acc: 0.53
+Epoch 3, Train Loss: 0.6708, Val Loss: 0.7936, Val Acc: 0.52
+Epoch 4, Train Loss: 0.6464, Val Loss: 0.6166, Val Acc: 0.60
+Epoch 5, Train Loss: 0.6660, Val Loss: 0.8663, Val Acc: 0.52
+Epoch 6, Train Loss: 0.6565, Val Loss: 0.8455, Val Acc: 0.52
+Epoch 7, Train Loss: 0.6608, Val Loss: 0.7968, Val Acc: 0.52
+Epoch 8, Train Loss: 0.6633, Val Loss: 0.8637, Val Acc: 0.51
+Epoch 9, Train Loss: 0.6591, Val Loss: 0.8432, Val Acc: 0.52
+Epoch 10, Train Loss: 0.6577, Val Loss: 1.0170, Val Acc: 0.49
+Epoch 11, Train Loss: 0.6563, Val Loss: 0.8732, Val Acc: 0.51
+Epoch 12, Train Loss: 0.6547, Val Loss: 0.7593, Val Acc: 0.51
+Epoch 13, Train Loss: 0.6586, Val Loss: 0.6914, Val Acc: 0.53
+Epoch 14, Train Loss: 0.6654, Val Loss: 0.8240, Val Acc: 0.52
+Epoch 15, Train Loss: 0.6577, Val Loss: 0.8781, Val Acc: 0.50
+Epoch 16, Train Loss: 0.6608, Val Loss: 1.0308, Val Acc: 0.50
+Epoch 17, Train Loss: 0.6514, Val Loss: 0.8354, Val Acc: 0.52
+Epoch 18, Train Loss: 0.6510, Val Loss: 0.8486, Val Acc: 0.52
+Epoch 19, Train Loss: 0.6483, Val Loss: 0.8892, Val Acc: 0.52
+
+============================================================
+FINAL EVALUATION
+============================================================
+
+Validation Set Predictions:
+--------------------------------------------------------------------------------
+Title                                              True       Pred       Prob       Status    
+--------------------------------------------------------------------------------
+Violencia en nios sube durante gobierno de AM...   0.0        0          0.155 CORRECT   
+Cystic Fibrosis Fact 1 and Cellucor COR BCAAC...   0.0        0          0.230 CORRECT   
+6                                                  0.0        0          0.148 CORRECT   
+190825 SBS Inkigayo  Rocket Punch  BIM BAM BU...   0.0        0          0.169 CORRECT   
+Training with Ronnie Coleman Chris JonesPOG B...   1.0        0          0.216 WRONG     
+MUST LEARN Sony A7Sii Trick Shoot 4K in Super...   1.0        0          0.223 WRONG     
+Pisces Tarot Scope December 2014                   0.0        0          0.151 CORRECT   
+The Centurion Guide Is Coming                      1.0        0          0.149 WRONG     
+Dead by Daylight  760      360                     0.0        0          0.153 CORRECT   
+ALFONSO LEON EN TU CASA TV  CMO ACTIVAR LA PR...   0.0        0          0.293 CORRECT   
+Big Back for an Even BIGGER New Year  Back Tr...   1.0        1          0.908 CORRECT   
+Los Miserables Mxico con Agustin Arguello          0.0        0          0.149 CORRECT   
+Diminished Scales Lesson Demowmv                   1.0        0          0.151 WRONG     
+11 Get and set DOM using jQuery  jQuery Tutor...   1.0        0          0.187 WRONG     
+17 What Is a While Loop in PHP  PHP Tutorial ...   1.0        1          0.987 CORRECT   
+Japanese Toyota Hiace CamperVan part 2             0.0        0          0.151 CORRECT   
+DEAN  ART GALLERY  Clip                            0.0        0          0.148 CORRECT   
+Bombshell study shows aspartame depletes neur...   1.0        0          0.321 WRONG     
+School Lunches and snacks                          1.0        0          0.148 WRONG     
+26 Are You Done Learning HTML  CSS  Learn HTM...   1.0        1          0.983 CORRECT   
+
+Overall Validation Accuracy: 6.60%
+
+============================================================
+TESTING ON SAMPLE TITLES
+============================================================
+Title: Python programming tutorial for beginners
+Prediction: NON-STUDY (Probability: 0.147)
+--------------------------------------------------
+Title: Daily vlog my morning routine
+Prediction: NON-STUDY (Probability: 0.147)
+--------------------------------------------------
+Title: Machine learning study guide 2024
+Prediction: NON-STUDY (Probability: 0.148)
+--------------------------------------------------
+Title: Cooking delicious pasta recipe
+Prediction: NON-STUDY (Probability: 0.147)
+--------------------------------------------------
+Title: Math exam preparation tips
+Prediction: NON-STUDY (Probability: 0.147)
+--------------------------------------------------

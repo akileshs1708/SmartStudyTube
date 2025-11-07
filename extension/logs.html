@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SmartStudyTube Logs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>SmartStudyTube Logs</h2>
+  <div id="logs"></div>
+
+  <script>
+    function loadLogs() {
+      chrome.storage.local.get(["logs"], (result) => {
+        const logs = result.logs || [];
+        const container = document.getElementById("logs");
+        container.innerHTML = logs.map(l => `<p>${l}</p>`).join("");
+      });
+    }
+
+    setInterval(loadLogs, 2000);
+  </script>
+</body>
+</html>
