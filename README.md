@@ -58,7 +58,7 @@ SmartStudyTube
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/SmartStudyTube.git
+git clone https://github.com/akileshs1708/SmartStudyTube.git
 cd SmartStudyTube
 ```
 
