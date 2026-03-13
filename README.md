@@ -4,7 +4,7 @@ SmartStudyTube is a **browser extension integrated with a Machine Learning backe
 
 It automatically analyzes video titles and **filters out distracting or non-study videos**, allowing only **educational and study-related content** to appear.
 
-The system uses **Natural Language Processing (NLP)** and **Machine Learning models (Word2Vec + LSTM)** to classify YouTube videos as **Study** or **Non-Study**.
+The system uses **Machine Learning models (Word2Vec + LSTM)** to classify YouTube videos as **Study** or **Non-Study**.
 
 ---
 
